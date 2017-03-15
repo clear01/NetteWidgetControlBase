@@ -1,0 +1,29 @@
+{
+	"name": "clear01/nette-widget-control-base",
+	"description": "Widget UI control base.",
+	"minimum-stability": "stable",
+	"license": "proprietary",
+	"keyword": ["widget", "gadget", "nette", "ui"],
+	"authors": [
+		{
+			"name": "Clear01 Development",
+			"email": "development@clear01.com"
+		}
+	],
+    "autoload": {
+        "psr-0": {
+            "Clear01\\Widgets\\Nette\\UI\\": "src/"
+        }
+	},
+	"autoload-dev": {
+		"psr-0": {
+			"Clear01Tests\\Widgets\\Nette\\UI\\": "tests/"
+		}
+	},
+	"require-dev": {
+		"nette/tester": "^1.7"
+	},
+	"require": {
+		"clear01/nette-widgets": "^0.1"
+	}
+}
