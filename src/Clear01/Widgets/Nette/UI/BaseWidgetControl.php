@@ -99,7 +99,7 @@ abstract class BaseWidgetControl extends Control
 			/** @var Control $widgetInstance */
 			$widgetInstance = $this->widgetManager->getSingleWidgetInstance($widgetId);
 			$multiplier->addComponent($widgetInstance, $widgetId);
-			if($this->getPresenter()->isSignalReceiver($widgetInstance)) {
+			if($this->getPresenter()->isSignalReceiver($widgetInstance, true)) {
 				$this->signalReceivingWidgetId = $widgetId;
 			} else {
 				$this->signalReceivingWidgetId = null;
