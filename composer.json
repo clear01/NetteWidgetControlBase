@@ -24,6 +24,6 @@
 		"nette/tester": "^1.7"
 	},
 	"require": {
-		"clear01/nette-widgets": "^0.1"
+		"clear01/nette-widgets": ">=0.1.0 <0.3.0"
 	}
 }
