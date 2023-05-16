@@ -8,7 +8,7 @@ use Nette\Application\Responses\JsonResponse;
 use Nette\Application\UI\Control;
 use Nette\Application\UI\Multiplier;
 use Nette\Diagnostics\Debugger;
-use Nette\Templating\ITemplate;
+use Nette\Application\UI\ITemplate;
 
 abstract class BaseWidgetControl extends Control
 {
